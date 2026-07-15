@@ -1,0 +1,18 @@
+package Numbers_Loops;
+import java.util.Scanner;
+// Print all prime numbers between 1 and N.
+public class N_primeNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for(int i=1; i<=n;i++){
+            if(i % 2 == 0){
+
+            }
+            else{
+                System.out.println(i);
+            }
+        }
+    }
+}
